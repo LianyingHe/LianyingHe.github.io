@@ -139,19 +139,11 @@ body.quarto-home .profile-photo {
   height: 12rem;
   margin: 0 auto 1.1rem;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
-  background:
-    radial-gradient(circle at 32% 24%, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0) 32%),
-    linear-gradient(145deg, #cce7df, #86b7ac);
+  display: block;
+  object-fit: cover;
+  object-position: 50% 38%;
   box-shadow: var(--shadow);
   border: 5px solid rgba(255, 255, 255, 0.82);
-}
-
-body.quarto-home .profile-photo span {
-  font-family: "STXingkai", "华文行楷", "KaiTi", "楷体", serif;
-  font-size: 5rem;
-  color: #215d54;
 }
 
 body.quarto-home .title {
@@ -433,10 +425,6 @@ body.quarto-home.quarto-dark .item-card {
   body.quarto-home .profile-photo {
     width: 10rem;
     height: 10rem;
-  }
-
-  body.quarto-home .profile-photo span {
-    font-size: 4.2rem;
   }
 
   body.quarto-home .title {
